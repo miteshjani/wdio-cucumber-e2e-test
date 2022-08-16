@@ -1,9 +1,9 @@
 import { Given ,When ,Then } from "@wdio/cucumber-framework"
 import chai from "chai"
 
-Given(/^Google page is opened$/,function(){
-    browser.url("https://www.google.com/");
-    browser.pause(70000);
+Given(/^Google page is opened$/,async function(){
+    await browser.url("https://www.google.com/");
+    await browser.pause(7000);
 })
 
 
@@ -24,4 +24,25 @@ Then(/^URl should match (.*)$/,async function(expectedurl){
     let url = await browser.getUrl();
     chai.expect(url).to.equal(expectedurl)
 
+})
+
+
+Given(/^A web page is opened$/, async function(){
+    await browser.url("/inputs");
+    await browser.setTimeout({implicit: 15000,pageLoad: 10000})
+    await browser.maximizeWindow()
+})
+
+
+When(/^Perform web interactions$/, async function(){
+
+let num=12345
+var numstr = num.toString();
+numstr ="1234"
+num=3456
+var ele = await $('[type=number]');
+await ele.click();
+await ele.setValue(numstr);
+//await ele.addValue(num);
+await browser.pause(3000);
 })
