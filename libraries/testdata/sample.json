@@ -1,0 +1,375 @@
+[
+    {
+        "sessionId": "70536c8fb0f9dba59b615443cc3e7df9",
+        "capabilities": {
+            "acceptInsecureCerts": true,
+            "browserName": "chrome",
+            "browserVersion": "104.0.5112.102",
+            "chrome": {
+                "chromedriverVersion": "104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307})",
+                "userDataDir": "C:\\Users\\Admin\\AppData\\Local\\Temp\\scoped_dir5180_553320776"
+            },
+            "goog:chromeOptions": {
+                "debuggerAddress": "localhost:54199"
+            },
+            "networkConnectionEnabled": false,
+            "pageLoadStrategy": "normal",
+            "platformName": "windows",
+            "proxy": {},
+            "setWindowRect": true,
+            "strictFileInteractability": false,
+            "timeouts": {
+                "implicit": 0,
+                "pageLoad": 300000,
+                "script": 30000
+            },
+            "unhandledPromptBehavior": "dismiss and notify",
+            "webauthn:extension:credBlob": true,
+            "webauthn:extension:largeBlob": true,
+            "webauthn:virtualAuthenticators": true
+        },
+        "config": {
+            "specs": [
+                "./suites/**/*.feature"
+            ],
+            "suites": {},
+            "exclude": [],
+            "logLevel": "info",
+            "logLevels": {},
+            "excludeDriverLogs": [],
+            "bail": 0,
+            "waitforInterval": 500,
+            "waitforTimeout": 10000,
+            "framework": "cucumber",
+            "reporters": [
+                "spec"
+            ],
+            "services": [
+                "chromedriver"
+            ],
+            "maxInstances": 10,
+            "maxInstancesPerCapability": 100,
+            "filesToWatch": [],
+            "connectionRetryTimeout": 120000,
+            "connectionRetryCount": 3,
+            "execArgv": [],
+            "runnerEnv": {},
+            "runner": "local",
+            "specFileRetries": 0,
+            "specFileRetriesDelay": 0,
+            "specFileRetriesDeferred": false,
+            "reporterSyncInterval": 100,
+            "reporterSyncTimeout": 5000,
+            "cucumberFeaturesWithLineNumbers": [],
+            "autoCompileOpts": {
+                "autoCompile": true,
+                "tsNodeOpts": {
+                    "transpileOnly": true,
+                    "project": "tsconfig.json"
+                },
+                "babelOpts": {}
+            },
+            "mochaOpts": {
+                "timeout": 10000
+            },
+            "jasmineOpts": {
+                "defaultTimeoutInterval": 10000
+            },
+            "cucumberOpts": {
+                "timeout": 300000,
+                "require": [
+                    "./libraries/pages/steps/*.ts"
+                ],
+                "backtrace": false,
+                "requireModule": [],
+                "dryRun": false,
+                "failFast": false,
+                "snippets": true,
+                "source": true,
+                "strict": false,
+                "tagExpression": "@demo",
+                "ignoreUndefinedDefinitions": false
+            },
+            "onPrepare": [],
+            "onWorkerStart": [],
+            "onWorkerEnd": [],
+            "before": [],
+            "beforeSession": [],
+            "beforeSuite": [],
+            "beforeHook": [],
+            "beforeTest": [],
+            "beforeCommand": [],
+            "afterCommand": [],
+            "afterTest": [],
+            "afterHook": [],
+            "afterSuite": [],
+            "afterSession": [],
+            "after": [],
+            "onComplete": [],
+            "onReload": [],
+            "beforeFeature": [],
+            "beforeScenario": [],
+            "beforeStep": [],
+            "afterStep": [],
+            "afterScenario": [],
+            "afterFeature": [],
+            "baseUrl": "https://www.amazon.com.au",
+            "_": [
+                ".\\\\wdio.conf.ts"
+            ],
+            "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+            "ignoredWorkerServices": []
+        }
+    },
+    {
+        "sessionId": "70536c8fb0f9dba59b615443cc3e7df9",
+        "elementId": "e7a12dc9-b78e-4d7a-95ec-f72f58d2e1e9",
+        "element-6066-11e4-a52e-4f735466cecf": "e7a12dc9-b78e-4d7a-95ec-f72f58d2e1e9",
+        "selector": "[name=q]",
+        "parent": {
+            "sessionId": "70536c8fb0f9dba59b615443cc3e7df9",
+            "capabilities": {
+                "acceptInsecureCerts": true,
+                "browserName": "chrome",
+                "browserVersion": "104.0.5112.102",
+                "chrome": {
+                    "chromedriverVersion": "104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307})",
+                    "userDataDir": "C:\\Users\\Admin\\AppData\\Local\\Temp\\scoped_dir5180_553320776"
+                },
+                "goog:chromeOptions": {
+                    "debuggerAddress": "localhost:54199"
+                },
+                "networkConnectionEnabled": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "windows",
+                "proxy": {},
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                    "implicit": 0,
+                    "pageLoad": 300000,
+                    "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify",
+                "webauthn:extension:credBlob": true,
+                "webauthn:extension:largeBlob": true,
+                "webauthn:virtualAuthenticators": true
+            },
+            "config": {
+                "specs": [
+                    "./suites/**/*.feature"
+                ],
+                "suites": {},
+                "exclude": [],
+                "logLevel": "info",
+                "logLevels": {},
+                "excludeDriverLogs": [],
+                "bail": 0,
+                "waitforInterval": 500,
+                "waitforTimeout": 10000,
+                "framework": "cucumber",
+                "reporters": [
+                    "spec"
+                ],
+                "services": [
+                    "chromedriver"
+                ],
+                "maxInstances": 10,
+                "maxInstancesPerCapability": 100,
+                "filesToWatch": [],
+                "connectionRetryTimeout": 120000,
+                "connectionRetryCount": 3,
+                "execArgv": [],
+                "runnerEnv": {},
+                "runner": "local",
+                "specFileRetries": 0,
+                "specFileRetriesDelay": 0,
+                "specFileRetriesDeferred": false,
+                "reporterSyncInterval": 100,
+                "reporterSyncTimeout": 5000,
+                "cucumberFeaturesWithLineNumbers": [],
+                "autoCompileOpts": {
+                    "autoCompile": true,
+                    "tsNodeOpts": {
+                        "transpileOnly": true,
+                        "project": "tsconfig.json"
+                    },
+                    "babelOpts": {}
+                },
+                "mochaOpts": {
+                    "timeout": 10000
+                },
+                "jasmineOpts": {
+                    "defaultTimeoutInterval": 10000
+                },
+                "cucumberOpts": {
+                    "timeout": 300000,
+                    "require": [
+                        "./libraries/pages/steps/*.ts"
+                    ],
+                    "backtrace": false,
+                    "requireModule": [],
+                    "dryRun": false,
+                    "failFast": false,
+                    "snippets": true,
+                    "source": true,
+                    "strict": false,
+                    "tagExpression": "@demo",
+                    "ignoreUndefinedDefinitions": false
+                },
+                "onPrepare": [],
+                "onWorkerStart": [],
+                "onWorkerEnd": [],
+                "before": [],
+                "beforeSession": [],
+                "beforeSuite": [],
+                "beforeHook": [],
+                "beforeTest": [],
+                "beforeCommand": [],
+                "afterCommand": [],
+                "afterTest": [],
+                "afterHook": [],
+                "afterSuite": [],
+                "afterSession": [],
+                "after": [],
+                "onComplete": [],
+                "onReload": [],
+                "beforeFeature": [],
+                "beforeScenario": [],
+                "beforeStep": [],
+                "afterStep": [],
+                "afterScenario": [],
+                "afterFeature": [],
+                "baseUrl": "https://www.amazon.com.au",
+                "_": [
+                    ".\\\\wdio.conf.ts"
+                ],
+                "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+                "ignoredWorkerServices": []
+            }
+        },
+        "isReactElement": false
+    },
+    {
+        "sessionId": "3c6202c008bca85a7c4a7bb1b6bf9d20",
+        "capabilities": {
+            "acceptInsecureCerts": true,
+            "browserName": "chrome",
+            "browserVersion": "104.0.5112.102",
+            "chrome": {
+                "chromedriverVersion": "104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307})",
+                "userDataDir": "C:\\Users\\Admin\\AppData\\Local\\Temp\\scoped_dir3312_460840574"
+            },
+            "goog:chromeOptions": {
+                "debuggerAddress": "localhost:54254"
+            },
+            "networkConnectionEnabled": false,
+            "pageLoadStrategy": "normal",
+            "platformName": "windows",
+            "proxy": {},
+            "setWindowRect": true,
+            "strictFileInteractability": false,
+            "timeouts": {
+                "implicit": 15000,
+                "pageLoad": 200000,
+                "script": 30000
+            },
+            "unhandledPromptBehavior": "dismiss and notify",
+            "webauthn:extension:credBlob": true,
+            "webauthn:extension:largeBlob": true,
+            "webauthn:virtualAuthenticators": true
+        },
+        "config": {
+            "specs": [
+                "./suites/**/*.feature"
+            ],
+            "suites": {},
+            "exclude": [],
+            "logLevel": "info",
+            "logLevels": {},
+            "excludeDriverLogs": [],
+            "bail": 0,
+            "waitforInterval": 500,
+            "waitforTimeout": 10000,
+            "framework": "cucumber",
+            "reporters": [
+                "spec"
+            ],
+            "services": [
+                "chromedriver"
+            ],
+            "maxInstances": 10,
+            "maxInstancesPerCapability": 100,
+            "filesToWatch": [],
+            "connectionRetryTimeout": 120000,
+            "connectionRetryCount": 3,
+            "execArgv": [],
+            "runnerEnv": {},
+            "runner": "local",
+            "specFileRetries": 0,
+            "specFileRetriesDelay": 0,
+            "specFileRetriesDeferred": false,
+            "reporterSyncInterval": 100,
+            "reporterSyncTimeout": 5000,
+            "cucumberFeaturesWithLineNumbers": [],
+            "autoCompileOpts": {
+                "autoCompile": true,
+                "tsNodeOpts": {
+                    "transpileOnly": true,
+                    "project": "tsconfig.json"
+                },
+                "babelOpts": {}
+            },
+            "mochaOpts": {
+                "timeout": 10000
+            },
+            "jasmineOpts": {
+                "defaultTimeoutInterval": 10000
+            },
+            "cucumberOpts": {
+                "timeout": 300000,
+                "require": [
+                    "./libraries/pages/steps/*.ts"
+                ],
+                "backtrace": false,
+                "requireModule": [],
+                "dryRun": false,
+                "failFast": false,
+                "snippets": true,
+                "source": true,
+                "strict": false,
+                "tagExpression": "@demo",
+                "ignoreUndefinedDefinitions": false
+            },
+            "onPrepare": [],
+            "onWorkerStart": [],
+            "onWorkerEnd": [],
+            "before": [],
+            "beforeSession": [],
+            "beforeSuite": [],
+            "beforeHook": [],
+            "beforeTest": [],
+            "beforeCommand": [],
+            "afterCommand": [],
+            "afterTest": [],
+            "afterHook": [],
+            "afterSuite": [],
+            "afterSession": [],
+            "after": [],
+            "onComplete": [],
+            "onReload": [],
+            "beforeFeature": [],
+            "beforeScenario": [],
+            "beforeStep": [],
+            "afterStep": [],
+            "afterScenario": [],
+            "afterFeature": [],
+            "baseUrl": "https://www.amazon.com.au",
+            "_": [
+                ".\\\\wdio.conf.ts"
+            ],
+            "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+            "ignoredWorkerServices": []
+        }
+    }
+]
