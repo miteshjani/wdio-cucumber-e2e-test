@@ -1,5 +1,10 @@
-import type { Options } from '@wdio/types'
+import dotenv from "dotenv"
+dotenv.config()
 
+import type { Options } from '@wdio/types'
+let headles = process.env.HEADLESS
+console.log(">> The HEADLESS flag: "+ headles)
+let debug = process.env.DEBUG
 export const config: Options.Testrunner = {
     //
     // ====================
@@ -53,6 +58,7 @@ export const config: Options.Testrunner = {
         './suites/**/*.feature'
     ],
     // Patterns to exclude.
+    
     exclude: [
         // 'path/to/excluded/files'
     ],
@@ -86,9 +92,9 @@ export const config: Options.Testrunner = {
         maxInstances: 5,
         //
         browserName: 'chrome',
-        // "goog:chromeOptions":{
-        //     args:["--disable-web-security"]
-        // },
+        "goog:chromeOptions":{
+            args: headles.toUpperCase().trim() === "Y" ? ["--disable-web-security","--headless","--disable-dev-shm-usage","--no-sandbox","--window-size=1920,1080"]:[]
+        },
         acceptInsecureCerts: true,
         timeouts: {
             implicit: 5000,
@@ -107,7 +113,7 @@ export const config: Options.Testrunner = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'info',
+    logLevel: debug.toUpperCase().trim() === "Y"?'info':'error',
     //
     // Set specific log levels per logger
     // loggers:
